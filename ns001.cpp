@@ -25,7 +25,10 @@ int main() {
       }
     }
   }
-  for (int i = 0; i < c; i++) {
-    cout << out[i] << " ";
+  for (int i = 0; i < num; i++) {
+    cout << out[i];
+    if (i != num - 1){
+      cout << " ";
+    }
   }
 }
