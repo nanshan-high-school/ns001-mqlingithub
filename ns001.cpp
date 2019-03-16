@@ -25,9 +25,9 @@ int main() {
       }
     }
   }
-  for (int i = 0; i < num; i++) {
+  for (int i = 0; i < c; i++) {
     cout << out[i];
-    if (i != num - 1){
+    if (i != c - 1){
       cout << " ";
     }
   }
